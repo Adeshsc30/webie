@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
@@ -50,7 +51,9 @@ const Contact = () => {
             <FaGithub />
           </a>
         </div>
-
+<div className="w-full py-20">
+      <ContactForm />
+    </div>
       </div>
     </div>
   );
